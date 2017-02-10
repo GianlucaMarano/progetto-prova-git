@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="testo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus lectus, pellentesque vitae orci quis, vulputate vehicula nisl. Fusce mauris risus, euismod quis diam vitae, cursus pharetra velit. Nam vitae nisi id elit tincidunt pellentesque scelerisque quis enim. Sed purus massa, convallis non vestibulum et, convallis vel velit. Cras fermentum.</string>
+    <string name="data">01/01/2000</string>
+    <string name="sottotitolo">Questo si chiama sottotitolo</string>
+</resources>
