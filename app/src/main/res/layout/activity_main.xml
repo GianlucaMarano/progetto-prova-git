@@ -7,38 +7,38 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:background="#fff"
+    android:orientation="vertical"
     android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
+            android:id="@+id/titolo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/titolo"
-            android:textSize="24sp"
-            android:text="@string/app_name" />
+            android:text="@string/app_name"
+            android:textSize="24sp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
+            android:id="@+id/sotto"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:id="@+id/sotto"
-            android:textSize="16sp"
+            android:layout_weight="1"
             android:text="@string/sottotitolo"
-            android:layout_weight="1"/>
+            android:textSize="16sp" />
         <TextView
+            android:id="@+id/data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:id="@+id/data"
             android:layout_gravity="end"
-            android:text="@string/data" />
+            android:text="@string/data"
+            android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,9 +52,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="end|bottom">
+        android:gravity="end|bottom"
+        android:orientation="vertical">
         <Button
+            android:id="@+id/main_leggi1_btn"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:text="Leggi"/>
@@ -67,39 +68,39 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginTop="10dp"
         android:background="#fff"
-        android:padding="10dp"
-        android:layout_marginTop="10dp">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/titolo2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/titolo2"
-                android:textSize="24sp"
-                android:text="@string/app_name" />
+                android:text="@string/app_name"
+                android:textSize="24sp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/sotto2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:id="@+id/sotto2"
-                android:textSize="16sp"
+                android:layout_weight="1"
                 android:text="@string/sottotitolo"
-                android:layout_weight="1"/>
+                android:textSize="16sp" />
             <TextView
+                android:id="@+id/data2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/data2"
-                android:textSize="16sp"
                 android:layout_gravity="end"
-                android:text="@string/data" />
+                android:text="@string/data"
+                android:textSize="16sp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -114,8 +115,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="end|bottom">
+            android:gravity="end|bottom"
+            android:orientation="vertical">
             <Button
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
